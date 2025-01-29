@@ -21,14 +21,14 @@ To work with reviews in the project, [MockAPI](https://mockapi.io/) is used, whi
 - GET /reviews
 Gets a list of reviews.
 Sample response:
-[
-  {
-    "id": "1",
-    "name": "Jane Doe",
-    "reviews": "Awesome!",
-    "rating": 4
-  },
-]
+      [
+        {
+          "id": "1",
+          "name": "Jane Doe",
+          "reviews": "Awesome!",
+          "rating": 4
+        },
+      ]
 
 - POST /reviews
 Adds a new review.
