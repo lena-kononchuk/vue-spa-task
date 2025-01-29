@@ -18,22 +18,22 @@
 
 **Main endpoints:**
 
-    - GET /reviews
-    Gets a list of reviews.
-    Sample response:
-    [
-      {
-        "id": "1",
-        "name": "Jane Doe",
-        "reviews": "Awesome!",
-        "rating": 4
-      },
-    ]
-
-    - POST /reviews
-    Adds a new review.
-    **Request body:**
-    {
+- GET /reviews
+Gets a list of reviews.
+Sample response:
+[
+  {
+    "id": "1",
     "name": "Jane Doe",
     "reviews": "Awesome!",
-    }
+    "rating": 4
+  },
+]
+
+- POST /reviews
+Adds a new review.
+**Request body:**
+{
+"name": "Jane Doe",
+"reviews": "Awesome!",
+}
