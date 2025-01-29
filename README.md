@@ -57,8 +57,10 @@ Gets a list of reviews.
 
 - POST /reviews
 Adds a new review.
-**Request body:**
-{
-"name": "Jane Doe",
-"reviews": "Awesome!",
-}
+    ```bash
+      Sample response:
+        {
+          "name": "Jane Doe",
+          "reviews": "Awesome!",
+          }
+    ```
