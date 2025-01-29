@@ -1,6 +1,6 @@
 1 **Clone the project repository.**
 
-git clone https://github.com/your-repo/project.git
+git clone https://github.com/lena-kononchuk/vue-spa-task
 cd project
 
 3. **Install dependencies.**
